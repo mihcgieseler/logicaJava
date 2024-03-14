@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args){
         exercicio11();
     }
-    //01: Verificar se um número é positivo, negativo ou zero ------- ARRUMAR
+    //01: Verificar se um número é positivo, negativo ou zero
     public static void exercicio01(){
         Scanner entrada = new Scanner(System.in);
         System.out.println("Digite um número para saber se positivo, negativo ou zero");
