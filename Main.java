@@ -2,6 +2,16 @@ import java.util.Scanner;
 public class Main {
     
     public static void main(String[] args){
+        //exercicio01();
+        //exercicio02();
+        //exercicio03();
+        //exercicio04();
+        //exercicio05();
+        //exercicio06();
+        //exercicio07();
+        //exercicio08();
+        //exercicio09();
+        //exercicio10();
         exercicio11();
     }
     //01: Verificar se um número é positivo, negativo ou zero
@@ -122,9 +132,11 @@ public class Main {
         System.out.println("Digite um ano para verificarmos se é bissexto");
         int ano = n.nextInt();
 
-        if(ano%4==0){
+        if(ano%400==0){
             System.out.println("O ano é bissexto!");
-        } else{
+        } else if ((ano%4==0) && (ano%100 !=0)){
+            System.out.println("O ano é bissexto!");
+        }else{
             System.out.println("O ano não é bissexto!");
         }
     }
